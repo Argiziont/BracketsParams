@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace BracketsParams
 {
-    class Program
+    public class Brackets
     {
         static void Main(string[] args)
         {
@@ -20,11 +20,9 @@ namespace BracketsParams
 
             Console.ReadKey();
         }
-        static bool BracketTest(string bracketstring, params char[] brackets)
+        public static bool BracketTest(string bracketstring, params char[] brackets)
         {
             bool trueString=true;
-           // if (brackets.Length%2==0)
-           // {
                 for (int i = 0; i < brackets.Length; i+=2)
                 {
                     char left = brackets[i];
@@ -49,7 +47,6 @@ namespace BracketsParams
                         trueString=false;
                 }
                 return trueString;
-            //}
         }
     }
 }

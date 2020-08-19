@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BracketsParams", "BracketsParams\BracketsParams.csproj", "{7FDF6F87-E3CA-4C19-82E4-0A1CBD6412AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BracketsParams", "BracketsParams\BracketsParams.csproj", "{7FDF6F87-E3CA-4C19-82E4-0A1CBD6412AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BracketParams.Tests", "BracketParams.Tests\BracketParams.Tests.csproj", "{348A1383-79D9-4BBD-A87B-3F8AD4C58715}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{7FDF6F87-E3CA-4C19-82E4-0A1CBD6412AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FDF6F87-E3CA-4C19-82E4-0A1CBD6412AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FDF6F87-E3CA-4C19-82E4-0A1CBD6412AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{348A1383-79D9-4BBD-A87B-3F8AD4C58715}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{348A1383-79D9-4BBD-A87B-3F8AD4C58715}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{348A1383-79D9-4BBD-A87B-3F8AD4C58715}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{348A1383-79D9-4BBD-A87B-3F8AD4C58715}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
